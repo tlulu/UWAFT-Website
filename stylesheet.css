@@ -71,12 +71,21 @@ nav {
     position:relative;
 }
 
-    #landing_image {
+    #landing_image_blur {
+        position:absolute;
+        width:100%;
+        height:100%;
+        left:0px;
+        top:0px;
+    }
+
+    #landing_image_unblur {
         position:relative;
         width:100%;
         height:100%;
         left:0px;
         top:0px;
+        opacity:0.0;
     }
 
     #landing_div_text {
